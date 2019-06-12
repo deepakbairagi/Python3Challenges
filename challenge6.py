@@ -1,7 +1,6 @@
+
 #!/usr/bin/python3
-
-
-x=int(input(("Enter an option from following to execute cat command:\n1.Print the data of a single file\n2.Print data of multiple files\n3.Create a new empty file\n4.Create a file and enter some data\n5.Append data to already created file\n6.Redirect content of one file and append to an existing file\n"))) 
+x=int(input(("Enter an option from following to execute cat command:\n1.Print the data of a single file\n2.Print data of multiple files\n3.Create a new empty file\n4.Create a file and enter some data\n"))) 
 if x==1:
 	floc=input("enter name with location:\n")
 	myfile=open(floc,"r")
@@ -32,7 +31,7 @@ elif x==4:
 		else:
 			myfile.write(data)
 	myfile.close()
-#elif x==5:
+
 	
 	
 
