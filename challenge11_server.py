@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import  socket 
-recv_ip="192.168.174.142"
+recv_ip="127.0.0.1"
 recv_port=4647
 s=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 i=0
