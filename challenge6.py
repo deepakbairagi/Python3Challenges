@@ -32,7 +32,3 @@ elif x==4:
 			myfile.write(data)
 	myfile.close()
 
-	
-	
-
-
