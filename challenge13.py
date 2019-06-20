@@ -1,3 +1,4 @@
+# please install pyttsx3 module to run this program
 #!/usr/bin/python3
 import datetime
 import pyttsx3
