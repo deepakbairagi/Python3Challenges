@@ -1,0 +1,27 @@
+awk,sed
+
+
+
+Ansible process:
+
+
+step 1:pick two machine
+step 2:os1-->install ansible
+step 3:assign pass to ec2-user in os2
+step 4:change /etc/ssh/sshd_config to accept pass
+step 5:restart sshd service
+
+how to start working:
+1.write target IP in ansible inventory file(/etc/ansible/hosts)
+
+
+1.install basic utility
+vim /etc/fstab
+mount -a
+cat /etc/selinux/config or sed -i 
+setenforce 0
+getenforce 0
+timedatectl set -timezone Asia/Kolkata
+8.vim /etc/profile.d/motd.sh
+
+  
